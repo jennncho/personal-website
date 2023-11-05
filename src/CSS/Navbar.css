@@ -1,18 +1,36 @@
 a {
-  text-decoration: none;
-  color: black;
+  text-decoration: none !important;
+  color: black !important;
 }
 
 a:hover {
-  color:rgb(109, 109, 120)
+  color:rgb(109, 109, 120) !important;
+}
+
+.Navbar{
+  position: fixed;
+  display: inline-flex;
+  height: 100%;
+  width: 15%;
+  /* background-color: rgb(145, 189, 228); */
 }
 
 .Nav-name{
-  margin-left: 2em;
+  font-size:40px;
+  padding-bottom: 1px;
+  text-decoration: none;
 }
 
+.Nav-title{
+  font-size: 21px;
+}
+
+.Navlist{
+  padding-left: 0px;
+  padding-top: 1.5em;
+}
 
 .Navlist-elem{
   display:block;
-  margin-left: 2em;
+  padding-bottom: 20px;
 }

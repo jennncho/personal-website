@@ -1,23 +1,17 @@
-import logo from "./logo.svg";
 import "./CSS/Home.css";
+import Projects from "./Projects";
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="About">
+      {/* <Projects /> */}
+      <div>
+        Hello and Welcome.
+        <div>
+          Born and raised in the Northeast. I'm a full-stack developer based in
+          New York City.
+        </div>
+      </div>
     </div>
   );
 }
