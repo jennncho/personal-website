@@ -5,7 +5,7 @@ function Home() {
     <section id="home">
       <div className="Home">
         <div>
-          Hello and Welcome.
+          Welcome.
           <div>
             Born and raised in the Northeast. I'm a full-stack developer based
             in New York City.

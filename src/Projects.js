@@ -11,7 +11,6 @@ const Projects = () => {
             <Card.Img
               variant="top"
               src="https://www.eisenberg.com/upload/images/eisenberg/11/952_BANNER-CATEGORIE-BESOIN-1170X500PX-LG_ENG.jpeg"
-              fluid
             />
             <Card.Body>
               <Card.Title>BeautyBots</Card.Title>

@@ -9,7 +9,7 @@ function About() {
         taking the jump to enroll in a bootcamp. My spent my years prior as a
         brand insights consultant, helping Fortune 500 companies hone their
         brand vision through data driven market research.
-        <div>
+        <div className="About-hobbies">
           In my free time, I like to write songs, work on my vocals, and lift
           heavy things and put them down in the gym.
         </div>
