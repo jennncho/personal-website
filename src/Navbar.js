@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import "./CSS/Navbar.css";
+//import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+import "./CSS/style.css";
 
 const Navbar = () => {
   return (
@@ -7,19 +8,19 @@ const Navbar = () => {
       <nav>
         <div>
           <div className="Nav-name">
-            <Link to="/">Jenny Cho</Link>
+            <Link to="#home">Jenny Cho</Link>
           </div>
           <div className="Nav-title">Developer</div>
         </div>
         <ul className="Navlist">
           <li className="Navlist-elem">
-            <Link to="projects">Projects</Link>
+            <Link to="#about">About</Link>
           </li>
           <li className="Navlist-elem">
-            <Link to="info">Info</Link>
+            <Link to="#projects">Projects</Link>
           </li>
           <li className="Navlist-elem">
-            <Link to="contact">Contact</Link>
+            <Link to="#more">More</Link>
           </li>
         </ul>
       </nav>

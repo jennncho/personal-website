@@ -1,18 +1,18 @@
-import "./CSS/Home.css";
-import Projects from "./Projects";
+import "./CSS/style.css";
 
 function Home() {
   return (
-    <div className="About">
-      {/* <Projects /> */}
-      <div>
-        Hello and Welcome.
+    <section id="home">
+      <div className="Home">
         <div>
-          Born and raised in the Northeast. I'm a full-stack developer based in
-          New York City.
+          Hello and Welcome.
+          <div>
+            Born and raised in the Northeast. I'm a full-stack developer based
+            in New York City.
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
