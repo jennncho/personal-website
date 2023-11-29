@@ -1,7 +1,6 @@
 import "./CSS/style.css";
 import React from "react";
 import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";

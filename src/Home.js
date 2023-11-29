@@ -4,12 +4,11 @@ function Home() {
   return (
     <section id="home">
       <div className="Home">
-        <div>
-          Welcome.
-          <div>
-            Born and raised in the Northeast. I'm a full-stack developer based
-            in New York City.
-          </div>
+        {/* <img src="/bgrExample.png" alt="scenery" /> */}
+        <div className="Welcome-head">W E L C O M E</div>
+        <div className="Welcome-text">
+          My name is Jenny and I'm a full-stack developer based in New York
+          City.
         </div>
       </div>
     </section>

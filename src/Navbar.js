@@ -1,31 +1,43 @@
 //import { Link } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./CSS/style.css";
 
 const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = () => {
+    setIsActive(!isActive);
+    console.log(isActive);
+  };
+
   return (
     <div className="Navbar">
       <nav>
         <div>
           <div className="Nav-name">
             <Link to="#home" smooth>
-              Jenny Cho
+              JENNY CHO
             </Link>
           </div>
-          <div className="Nav-title">Developer</div>
+          <button href="#" className="toggle-button" onClick={handleClick}>
+            <FontAwesomeIcon icon={faBars} />
+          </button>
         </div>
-        <ul className="Navlist">
-          <li className="Navlist-elem">
+        <ul className={`Navlist${isActive ? "-active" : ""}`}>
+          <li className="Navlist-links">
             <Link to="#about" smooth>
               About
             </Link>
           </li>
-          <li className="Navlist-elem">
+          <li className="Navlist-links">
             <Link to="#projects" smooth>
               Projects
             </Link>
           </li>
-          <li className="Navlist-elem">
+          <li className="Navlist-links">
             <Link to="#contact" smooth>
               Contact
             </Link>
