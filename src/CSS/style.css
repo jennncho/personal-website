@@ -14,7 +14,7 @@
   padding-top: 30vh;
   padding-bottom: 55vh;
   color: #22223B;
-  background-image: url('/Users/jennycho/Documents/Projects/PersonalWebsite/personal-website/public/Dreamscape.png');
+  background-image: url('../../public/Dreamscape.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
