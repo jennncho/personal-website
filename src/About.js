@@ -10,9 +10,9 @@ function About() {
           career in data insights working with Fortune 500 clients to help
           inform their strategic business decisions. Upon realizing that the
           most interesting parts of my job were the analytical and technical, I
-          remembered that I had always had an affinity for coding - taking a
-          couple Computer Science courses in college even as a humanities major
-          just to itch my curiosity.
+          remembered that I always had an affinity for coding - taking a couple
+          Computer Science courses in college even as a humanities major just to
+          itch my curiosity.
         </p>
         <p>
           Knowing there was more to explore for me here, I quickly made the jump
