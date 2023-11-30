@@ -4,15 +4,27 @@ function About() {
   return (
     <section id="about">
       <div className="About">
-        Thanks for being here! In the past couple years, I stumbled onto
-        software development as my years long curiosity finally taking the jump
-        to enroll in a bootcamp. My spent my years prior as a brand insights
-        consultant, helping Fortune 500 companies hone their brand vision
-        through data driven market research.
-        <div className="About-hobbies">
-          In my free time, I like to write songs, work on my vocals, and lift
-          heavy things and put them down in the gym.
-        </div>
+        <h2>About me</h2>
+        <p>
+          Before transitioning into software development, I spent my previous
+          career in data insights working with Fortune 500 clients to help
+          inform their strategic business decisions. Upon realizing that the
+          most interesting parts of my job were the analytical and technical, I
+          remembered that I had always had an affinity for coding - taking a
+          couple Computer Science courses in college even as a humanities major
+          just to itch my curiosity.
+        </p>
+        <p>
+          Knowing there was more to explore for me here, I quickly made the jump
+          into software engineering and am very thankful that I did. As an
+          engineer, I bring a unique blend of humanistic, data-minded and
+          strategic thinking to my passion for the creative and analytical
+          process of creating applications.
+        </p>
+        <p>
+          In my free time, I like to write songs, work on my vocals, watch
+          anime, and lift heavy things to put them down in the gym.
+        </p>
       </div>
     </section>
   );
