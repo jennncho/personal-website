@@ -17,9 +17,9 @@ function About() {
         <p>
           Knowing there was more to explore for me here, I quickly made the jump
           into software engineering and am very thankful that I did. As an
-          engineer, I bring a unique blend of humanistic, data-minded and
-          strategic thinking to my passion for the creative and analytical
-          process of creating applications.
+          engineer, I bring a unique blend of humanistic and data-minded
+          thinking to my passion for the creative and analytical process of
+          creating applications.
         </p>
         <p>
           In my free time, I like to write songs, work on my vocals, watch
