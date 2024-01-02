@@ -31,3 +31,21 @@ function About() {
 }
 
 export default About;
+
+
+{/* <p>
+          Before transitioning into software development, I spent my previous
+          career in data insights working with Fortune 500 clients to help
+          inform their strategic business decisions. Upon realizing that the
+          most interesting parts of my job were the analytical and technical, I
+          remembered that I always had an affinity for coding - taking a couple
+          Computer Science courses in college even as a humanities major just to
+          itch my curiosity.
+        </p>
+        <p>
+          Knowing there was more to explore for me here, I quickly made the jump
+          into software engineering and am very thankful that I did. As an
+          engineer, I bring a unique blend of humanistic and data-minded
+          thinking to my passion for the creative and analytical process of
+          creating applications.
+        </p> */}
