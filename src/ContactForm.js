@@ -3,34 +3,7 @@ import emailjs from '@emailjs/browser';
 import {toast} from "sonner";
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
-
-// const ContactUs = () => {
-//     const form = useRef();
-    
-//     const sendEmail = (e) => {
-//     e.preventDefault();
-
-//     emailjs.sendForm('service_l4qjbbp', 'template_8a3wnpq', form.current, '7pv9pX151yuqzmEkB')
-//         .then((result) => {
-//             console.log("SUCCESS", result.text);
-//             form.current.reset();
-//         }, (error) => {
-//             console.log("ERROR", error.text);
-//         });
-//     };
-
-//     return (
-//     <form ref={form} onSubmit={sendEmail} style={{ display: 'flex', flexDirection: 'column', width: "27%" }}>
-//         <label>Name</label>
-//         <input type="text" name="from_name" placeholder='Name'/>
-//         <label>Email</label>
-//         <input type="email" name="from_email" placeholder='Email' />
-//         <label>Message</label>
-//         <textarea name="message" placeholder='Please type a message'/>
-//         <input type="submit" value="Send" />
-//     </form>
-//     );
-// };
+import "./CSS/style.css";
 
 const FormSchema = Yup.object().shape({
     name: Yup.string()
@@ -62,7 +35,7 @@ const ContactUs = () => {
         });
     };
     return(
-        <div style={{color:"white", marginLeft:"-8.5em"}}>
+        <div className="contact-form-container">
             <Formik
                 initialValues={{
                     name: '',
@@ -72,7 +45,7 @@ const ContactUs = () => {
                 validationSchema={FormSchema}
             >
                 {({ errors, touched, isValid }) => (
-                    <Form ref={form} onSubmit={sendEmail} style={{ display: 'flex', flexDirection: 'column', width: '175%'}}>
+                    <Form  className="contact-form" ref={form} onSubmit={sendEmail}>
                         <label style={{ marginBottom: '0.5rem' }}>Name</label>
                         <Field
                             name="name"

@@ -51,7 +51,8 @@
   }
 
   .Welcome-text{
-    font-size: 11px ;
+    font-size: 15px ;
+    margin: 0 1em;
   }
 }
 
@@ -260,10 +261,11 @@ a:hover {
 
  /* Contact */
 
- #contact{
-  padding-top: 10em;
+#contact{
+  padding-top: 5em;
   padding-bottom:15em
- }
+}
+
 .Contact{
   display:flex;
   flex-direction: column;
@@ -274,7 +276,6 @@ a:hover {
 
 .Contact-title{
   font-family: 'Electrolize', sans-serif;
-  font-size: 25px;
   margin-bottom: 0.5em;
   color:#EAEFF3;
 
@@ -282,7 +283,7 @@ a:hover {
 
 .Contact img{
   margin-bottom:1em;
-  margin-top: 1em;
+  margin-top: 3em;
   border-style: solid;
   border-width: 4px;
   border-color: black;
@@ -298,12 +299,34 @@ a:hover {
   list-style-type: none;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  padding-top: 1em;
   font-size: 1.7em;
 }
 
+.contact-form-container{
+  color: white;
+  margin-left: -13.5em;
+}
 
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 210%;
+}
+.contact-form label{
+  font-family: 'Lato', sans-serif;
+}
 
+.contact-form button{
+  font-family: 'Electrolize', sans-serif;
+}
+@media only screen and (max-width: 430px)  {
+  .contact-form-container{
+    margin-left: -5em;
+  }
+  .contact-form {
+    width:140%;
+  }
+}
 
 
 

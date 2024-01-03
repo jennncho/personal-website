@@ -9,15 +9,10 @@ function Contact() {
   return (
     <section id="contact">
       <div className="Contact">
-        <div className="Contact-title">Contact</div>
+        <h2 className="Contact-title">Contact</h2>
         <ContactForm />
         <Image src="/headshot4.png" width={150} height={150} roundedCircle />
         <ul>
-          {/* <li>
-            <a href="mailto:chojenny112@gmail.com">
-              <FontAwesomeIcon icon={faAt} />
-            </a>
-          </li> */}
           <li>
             <a
               href="https://www.linkedin.com/in/jenny-yeaeun-cho/"
