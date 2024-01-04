@@ -14,7 +14,7 @@ const FormSchema = Yup.object().shape({
         .email('Invalid email')
         .required('Email is required'),
     message: Yup.string()
-        .min(10, 'Please enter a longer message')
+        .min(30, 'Please enter a longer message')
         .required('Message is required'),
 });
 
