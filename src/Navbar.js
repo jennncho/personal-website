@@ -32,8 +32,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="Navlist-links">
-            <Link to="#projects" smooth>
-              Projects
+            <Link to="#portfolio" smooth>
+              Portfolio
             </Link>
           </li>
           <li className="Navlist-links">

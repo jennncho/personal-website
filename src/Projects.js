@@ -4,8 +4,8 @@ import "./CSS/style.css";
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <h2>Projects</h2>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
       <div className="Projects">
         <Card>
           <Card.Img

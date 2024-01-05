@@ -210,7 +210,7 @@ a:hover {
 
  /* Projects */
 
- #projects{
+ #portfolio{
   padding-top: 15vh;
   padding-bottom:30vh;
  }
@@ -221,7 +221,7 @@ a:hover {
   justify-content: center;
 }
 
-#projects h2{
+#portfolio h2{
   font-family: 'Electrolize', sans-serif;
   text-align: center;
   color: #EAEFF3;

@@ -4,26 +4,21 @@ function About() {
   return (
     <section id="about">
       <div className="About">
-        <h2>About me</h2>
+        <h2>About Me</h2>
         <p>
-          Before transitioning into software development, I spent my previous
-          career in data insights working with Fortune 500 clients to help
-          inform their strategic business decisions. Upon realizing that the
-          most interesting parts of my job were the analytical and technical, I
-          remembered that I always had an affinity for coding - taking a couple
-          Computer Science courses in college even as a humanities major just to
-          itch my curiosity.
+          Hello and Welcome! My name is Jenny and I'm full-stack software developer with a passion for creating appealing digital experiences. 
+          I specialize in making simple, user-friendly websites that are pleasing to the eye, easy to navigate, and highly functional.
         </p>
         <p>
-          Knowing there was more to explore for me here, I quickly made the jump
-          into software engineering and am very thankful that I did. As an
-          engineer, I bring a unique blend of humanistic and data-minded
-          thinking to my passion for the creative and analytical process of
-          creating applications.
+          I primarily work with small businesses and individual clients in a deeply collaborative and iterative approach. 
+          My previous background as a brand and PR consultant gives me a unique 
+          perspective on how to bring the ethos of my clients' brand to digital life.
         </p>
         <p>
-          In my free time, I like to write songs, work on my vocals, watch
-          anime, and lift heavy things to put them down in the gym.
+          My toolkit inlcudes HTML, CSS, JavaScript, React, Node.js, Next.js, Express, PostgreSQL/Sequelize and Firebase, as well as Vercel for deployement. And I'm always happy to learn new tools to get your website just right!
+        </p>
+        <p>
+          Whether you're a small business needing a website for your products/services or an individual looking to showcase your portfolio, I'd love to work with you. 
         </p>
       </div>
     </section>
@@ -31,21 +26,3 @@ function About() {
 }
 
 export default About;
-
-
-{/* <p>
-          Before transitioning into software development, I spent my previous
-          career in data insights working with Fortune 500 clients to help
-          inform their strategic business decisions. Upon realizing that the
-          most interesting parts of my job were the analytical and technical, I
-          remembered that I always had an affinity for coding - taking a couple
-          Computer Science courses in college even as a humanities major just to
-          itch my curiosity.
-        </p>
-        <p>
-          Knowing there was more to explore for me here, I quickly made the jump
-          into software engineering and am very thankful that I did. As an
-          engineer, I bring a unique blend of humanistic and data-minded
-          thinking to my passion for the creative and analytical process of
-          creating applications.
-        </p> */}
