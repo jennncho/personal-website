@@ -16,7 +16,7 @@ function Contact() {
           <li>
             <a
               href="https://www.linkedin.com/in/jenny-yeaeun-cho/"
-              target="_blank"ß
+              target="_blank"
               rel="noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedin} />
