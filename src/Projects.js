@@ -17,13 +17,13 @@ const projectList = [
     // image: "/SpineifySS.png",
     github: "https://github.com/Spineify/Spineify-capstone"
   },
-  {
-    title: "Project Clean",
-    description:
-      "Website for small cleaning business",
-    // image: "/SpineifySS.png",
-    github: "https://github.com/Ace-cleaning/project-clean"
-  }
+  // {
+  //   title: "Project Clean",
+  //   description:
+  //     "Website for small cleaning business",
+  //   // image: "/SpineifySS.png",
+  //   github: "https://github.com/Ace-cleaning/project-clean"
+  // }
 ]
 
 const Projects = () => {
@@ -43,6 +43,19 @@ const Projects = () => {
             </Card.Body>
           </Card>
         ))}
+        <Card>
+            {/* <Card.Img variant="top" src={project.image} /> */}
+            <Card.Body>
+              <Card.Title>Project Clean</Card.Title>
+              <Card.Text>Website for small cleaning business</Card.Text>
+              <Button variant="dark" href="https://github.com/Ace-cleaning/project-clean" target="_blank">
+                GitHub Repo
+              </Button>
+              <Button className="website-btn" variant="dark" href="https://project-clean.vercel.app/" target="_blank">
+                Website
+              </Button>
+            </Card.Body>
+          </Card>
       </div>
     </section>
   );
